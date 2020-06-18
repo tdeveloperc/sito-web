@@ -20,7 +20,7 @@
                         </div>
                     </form>
                     <p>Non hai un account?  <?php echo $this->Html->link('Registrati ora', ['controller' => 'Users', 'action' => 'register']);?>
-                    <div class="back_home"><a href="<?=$url?>/cakephp" class="btn outline-btn btn-sm"><i class="fa fa-angle-double-left"></i> Back to Home</a></div>
+                    <div class="back_home"><a href="<?=$url?>/" class="btn outline-btn btn-sm"><i class="fa fa-angle-double-left"></i> Back to Home</a></div>
                 </div>
             </div>
         </div>

@@ -33,7 +33,7 @@
                         </div>
                     </form>
                     <p>Hai già un account?  <?php echo $this->Html->link('Accedi', ['controller' => 'Users', 'action' => 'login']);?></p>
-                    <div class="back_home"><a href="<?=$url?>/cakephp" class="btn outline-btn btn-sm"><i class="fa fa-angle-double-left"></i> Back to Home</a></div>
+                    <div class="back_home"><a href="<?=$url?>/" class="btn outline-btn btn-sm"><i class="fa fa-angle-double-left"></i> Back to Home</a></div>
                 </div>
             </div>
         </div>

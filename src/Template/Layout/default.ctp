@@ -184,7 +184,7 @@ $url = 'http://progetto.localhost'
     <!--Carousel-JS--> 
     <?php echo $this->Html->script('owl.carousel.min') ?>
     <!--Map-JS--> 
-    <script src='http://maps.google.com/maps/api/js?key=AIzaSyAQsTHPE1hhsGg77C0BG8p5uIAIuFraE0w&#038;ver=5.3.2'></script>
+    <script src='http://maps.google.com/maps/api/js?key=AIzaSyA8gRdajqwJu97VC7qV2n8ITZept-iny00&#038;ver=5.3.2'></script>
     <?php echo $this->Html->script('infobox') ?>
     <?php echo $this->Html->script('maps') ?>
     <?php echo $this->Html->script('interface') ?>

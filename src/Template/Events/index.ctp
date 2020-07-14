@@ -59,14 +59,6 @@
 							</div>
 							<div class="listing-info-wp">
 								<h5> <?php echo $this->Html->link($event->title, ['action' => 'detail', $event->id]) ?></h5>
-								<div class="listing-rating">
-									<i class="fa fa-star active"></i>
-									<i class="fa fa-star active"></i>
-									<i class="fa fa-star active"></i>
-									<i class="fa fa-star active"></i>
-									<i class="fa fa-star"></i>
-									<span>(15 reviews)</span>
-								</div>
 								<p> <?php echo substr($event->description, 0, 85); ?></p>
 								<div class="listing-categories">
 									<a href="#"><?php echo $event->type; ?></a>
